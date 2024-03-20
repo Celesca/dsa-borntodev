@@ -7,5 +7,9 @@ class Main {
         customers.add("Sommai");
         customers.add("Somchai");
         System.out.println(customers.get(0));
+        System.out.println(customers.contains("Somchai"));
+        System.out.println(customers.size());
+
+        customers.remove(0);
     }
 }
